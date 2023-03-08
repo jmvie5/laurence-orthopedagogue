@@ -2,4 +2,4 @@
   Site web de Laurence, orthopédagogue
 </h1>
 
-<p>Utilise le framework de Gatsby</p>
+<p>Utilise le framework de Gatsby et TailwildCSS</p>
