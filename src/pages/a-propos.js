@@ -11,20 +11,20 @@ const AboutPage = () => {
                 <p className="self-center">Pour apprendre un peu plus à me connaitre, voici un aperçu de mon cheminement scolaire qui m’a menée jusqu’à la création de cette plateforme.</p>
                 <div className="border-t-8 border-l-8 border-lbf-orange rounded-tl-2xl p-8 max-w-3xl self-center">
                     <div className="pb-6">
-                        <StaticImage src="../images/cleSol.svg" className="float-right bg-center bg-contain bg-no-repeat w-16 h-32"/>
+                        <StaticImage src="../images/cleSol.svg" alt="Clé de sol" className="float-right bg-center bg-contain bg-no-repeat w-16 h-32"/>
                         <p>
                             Printemps 2015. Je termine mes études collégiales en musique. La jeune pianiste que j’étais avait besoin d’une pause de musique. Mais j’hésitais. Aller en enseignement, ou m’inscrire dans un programme de littérature française?
                         </p>
                     </div>
                     
                     <div className="pb-6">
-                        <StaticImage src="../images/livre.svg" className="bg-center bg-contain bg-no-repeat float-left w-44 h-28"/>
+                        <StaticImage src="../images/livre.svg" alt="Livre" className="bg-center bg-contain bg-no-repeat float-left w-44 h-28"/>
                         <p>
                             J’ai envie de suivre ma passion de toujours. Gagner la bourse d’excellence en français de mon Cégep me donne le petit coup de pied nécessaire : je m’inscris en littérature! Et hop! Quel revirement de situation!
                         </p>
                     </div>
                     <div>
-                        <StaticImage src="../images/crayon.svg" className="bg-center bg-contain bg-no-repeat float-right w-20 h-38"/>
+                        <StaticImage src="../images/crayon.svg" alt="Crayon" className="bg-center bg-contain bg-no-repeat float-right w-20 h-38"/>
                         <p>
                             Dès que j’appuie sur le bouton « accepter », je suis envahie de regrets. Non, en fait, je me vois devenir enseignante. C’est décidé, je serai enseignante. Allez, je m’inscris!
                         </p>
@@ -51,10 +51,13 @@ const AboutPage = () => {
                     <h1 className="text-2xl text-bold pb-4">Pourquoi Laurence bf, orthopédagogue?</h1>
                     <div className="flex flex-col gap-2">
                         <p>
-                            Avec la plateforme Laurence bf, orthopédagogue, je peux transmettre mes connaissances aux acteurs les plus importants dans la vie d’un enfant : vous, les parents. Il m’est arrivé beaucoup trop souvent de rencontrer des parents qui voulaient aider leurs enfants à développer leurs compétences et à acquérir des connaissances, mais qui ne savaient tout simplement pas comment faire. Quand je travaille avec des enfants, je suis capable d’intervenir sur leurs principales difficultés, mais bien souvent, je ne les vois qu’une fois par semaine (et même parfois aux deux semaines) ; mon pouvoir reste donc tout de même limité. 
+                            Avec la plateforme <strong>Laurence bf, orthopédagogue</strong>, je peux transmettre mes connaissances aux acteurs les plus importants dans la vie d’un enfant : vous, <strong>les parents</strong>. Il m’est arrivé beaucoup trop souvent de rencontrer des parents qui voulaient aider leurs enfants à développer leurs compétences et à acquérir des connaissances, mais qui ne savaient tout simplement pas comment faire. Quand je travaille avec des enfants, je suis capable d’intervenir sur leurs principales difficultés, mais bien souvent, je ne les vois qu’une fois par semaine (et même parfois aux deux semaines) ; mon pouvoir reste donc tout de même limité. 
                         </p>
                         <p>
-                            C’est donc à vous, les parents, que s’adresse cette plateforme, puisque c’est vous qui êtes aux premières loges des devoirs de votre enfant. Mon but est de vous transmettre des outils et des savoirs qui vous permettront de mieux cibler les besoins de votre enfant et de mieux intervenir auprès de lui, et ce, dans un état d’esprit positif afin de favoriser la motivation de votre enfant (et la bonne humeur familiale lors du moment des leçons!)
+                            C’est donc à vous, les parents, que s’adresse cette plateforme, puisque c’est vous qui êtes aux premières loges des devoirs de votre enfant.
+                        </p>
+                        <p className="px-4 mt-2 font-bold border-l-4 border-lbf-orange">
+                            Mon but est de vous transmettre des outils et des savoirs qui vous permettront de mieux cibler les besoins de votre enfant et de mieux intervenir auprès de lui, et ce, dans un état d’esprit positif afin de favoriser la motivation de votre enfant (et la bonne humeur familiale lors du moment des leçons!)
                         </p>
                     </div>
                 </div>

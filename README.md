@@ -1,5 +1,6 @@
-<h1 align="center">
-  Site web de Laurence, orthopédagogue
-</h1>
+# Site web de Laurence Bernard-Fontaine, orthopédagogue
 
-<p>Utilise le framework de Gatsby</p>
+## [laurencebf.ca](https://laurencebf.ca/)
+
+
+Ce site web utilise le framework [Gatsby](https://www.gatsbyjs.com/) et [Tailwind CSS](https://tailwindcss.com/docs).

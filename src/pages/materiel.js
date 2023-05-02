@@ -15,7 +15,7 @@ const MaterielPage = () => {
       <div className='pb-4'>
         <h2 className="p-1 text-xl ml-4">Dé de conjugaison</h2>
         <div className='border-8 border-lbf-orange rounded-2xl p-4'>
-          <StaticImage src="../images/de-isole.png" className="float-right bg-center bg-contain bg-no-repeat lg:mr-8 w-32 h-32"/>
+          <StaticImage src="../images/de-isole.png" alt="Dé de conjugaison" className="float-right bg-center bg-contain bg-no-repeat lg:mr-8 w-32 h-32"/>
           <p className='pb-2'>Liens pour téléchargement :</p>
           <ul className="list-disc list-inside">
               <li className="pl-4"><a href={de_fr} download className="underline text-blue-500">Dé avec les personnes</a>{` `}</li>

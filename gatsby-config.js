@@ -29,6 +29,7 @@ module.exports = {
     
   },
   plugins: [
+    "gatsby-plugin-netlify",
     "gatsby-plugin-image",
     {
       resolve: `gatsby-plugin-sharp`,

@@ -2,30 +2,16 @@
 
 import * as React from 'react'
 import { Menu, Transition } from '@headlessui/react'
-
-import { useStaticQuery, graphql, Link } from 'gatsby'
+import { useSiteMetadata } from "../hooks/use-site-metadata"
+import { Link } from 'gatsby'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
+export default function DropMenu() {
 
-
-    export default function DropMenu() {
-
-        const data = useStaticQuery(graphql`
-        query {
-            site {
-            siteMetadata {
-                title
-                menuLinks {
-                name
-                link
-                }
-            }
-            }
-        }
-    `)
+    const siteMetadata = useSiteMetadata()
 
     return (
         <Menu as="div" className="relative inline-block text-left">
@@ -50,8 +36,8 @@ function classNames(...classes) {
                 
                 <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
                     <div className="py-1">
-                        {data.site.siteMetadata.menuLinks.map(link => (
-                                    <Menu.Item>
+                        {siteMetadata.menuLinks.map(link => (
+                                    <Menu.Item key={link.name}>
                                         {({ active }) => (
                                             <Link to={link.link} className={classNames(
                                                 active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
@@ -67,4 +53,4 @@ function classNames(...classes) {
             </Transition>
         </Menu>
     )
-    }
+}
