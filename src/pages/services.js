@@ -62,11 +62,11 @@ const ServicesPage = () => {
                             <div className="flex flex-col md:grid md:grid-rows-2 gap-2">
                                 <label className="block row-start-1 row-span-1">
                                     <span className="block">Nom</span>
-                                    <input type="text" className="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-lbf-orange focus:ring-1 focus:ring-lbf-orange focus:invalid:border-red-500 focus:invalid:ring-red-500" placeholder="Votre nom complet" required/>
+                                    <input type="text" name="Nom" className="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-lbf-orange focus:ring-1 focus:ring-lbf-orange focus:invalid:border-red-500 focus:invalid:ring-red-500" placeholder="Votre nom complet" required/>
                                 </label>
                                 <label class="block col-start-2 row-span-1">
                                     <span class="block">Courriel</span>
-                                    <input type="email" className="peer/email mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-lbf-orange focus:ring-1 focus:ring-lbf-orange focus:invalid:border-red-500 focus:invalid:ring-red-500" placeholder="Votre adresse courriel" required/>
+                                    <input type="email" name="Courriel" className="peer/email mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-lbf-orange focus:ring-1 focus:ring-lbf-orange focus:invalid:border-red-500 focus:invalid:ring-red-500" placeholder="Votre adresse courriel" required/>
                                     <p class="mt-2 invisible peer-invalid/email:visible text-red-600 text-sm">
                                     Veillez fournir une adresse courriel valide.
                                     </p>
