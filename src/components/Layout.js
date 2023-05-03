@@ -62,9 +62,9 @@ const Layout = ({ pageTitle, children }) => {
                 </main>
             </div>
             <div className='p-4 bg-gradient-to-t from-lbf-orange to-lbf-blanc'/>
-            <footer className='flex text-white bg-lbf-orange p-4 gap-8 text-sm md:text-base justify-between' >
+            <footer className='flex flex-col sm:flex-row text-white bg-lbf-orange p-4 gap-4 text-sm md:text-base justify-between' >
                 <div className=''>
-                    <div className='mt-2'>
+                    <div className='mt-2 flex justify-center'>
                         <div className='flex flex-col xl:flex-row xl:space-x-4 space-y-2 xl:space-y-0'>
                             <a href='https://www.instagram.com/laurencebf.orthopedagogue/' className='flex space-x-1.5'>
                                 <StaticImage src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png'
@@ -73,6 +73,10 @@ const Layout = ({ pageTitle, children }) => {
                             </a>
                         </div>
                     </div>
+                </div>
+                <div className='flex sm:flex-row flex-col sm:mr-4 gap-2 items-center'>
+                    <p>Contact : </p>
+                    <a className="underline" href='mailto:info@laurencebf.ca'>info@laurencebf.ca</a>
                 </div>
             </footer>
         </div>
