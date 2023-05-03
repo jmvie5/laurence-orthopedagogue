@@ -57,6 +57,8 @@ const ServicesPage = () => {
                         <p className="text-xl font-bold p-4">Mes services d'accompagnement des parents sont offert en téléconsultation.</p><p className="pb-4 select-text">Contactez-moi pour prendre rendez-vous en remplissant ce formulaire ou en m'envoyant un courriel à <a className="underline" href="mailto:info@laurencebf.ca">info@laurencebf.ca</a></p>
                         <form className="flex flex-col max-w-3xl" name="contact" action="/succes" method="POST" data-netlify="true" netlify-honeypot="bot-field">
                             <input type="hidden" name="bot-field"/>
+                            <input type="hidden" name="subject" value="Demande de renseignement venant de laurencebf.ca" />
+                            <input type="hidden" name="form-name" value="contact"/>
                             <div className="flex flex-col md:grid md:grid-rows-2 gap-2">
                                 <label className="block row-start-1 row-span-1">
                                     <span className="block">Nom</span>
@@ -73,7 +75,7 @@ const ServicesPage = () => {
                                     <span className="block">Âge de votre enfant</span>
                                     <input type="number" name="ageEnfant" placeholder="Âge de votre enfant" min={1} max={18} className="mt-1 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-lbf-orange focus:ring-1 focus:ring-lbf-orange focus:invalid:border-red-500 focus:invalid:ring-red-500" required/>
                                 </label>
-                                <input type="hidden" name="subject" value="Demande de renseignement venant de laurencebf.ca" />
+                                
                                 <label className="block row-start-2 col-span-1">
                                     <span className="block">Année scolaire en cours</span>
                                     <select name="niveaux" className="mt-1 md:mt-7 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-lbf-orange focus:ring-1 focus:ring-lbf-orange focus:invalid:border-red-500 focus:invalid:ring-red-500" required>
