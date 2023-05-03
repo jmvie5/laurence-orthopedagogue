@@ -22,7 +22,7 @@ const BlogPost = ({ data, children }) => {
         </div>
         <Link to="/blogue" className="flex flex-row w-24 h-10 p-2 mt-4 items-center border border-black rounded-lg shadow-2xl font-mulish">
             <ArrowSmallLeftIcon/>
-            <p className="-mt-1 font-mulish">Retour</p>
+            <p className="font-mulish">Retour</p>
         </Link>
     </Layout>
     )
