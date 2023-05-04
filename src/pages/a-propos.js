@@ -65,7 +65,7 @@ const AboutPage = () => {
                     <h1 className="text-2xl text-bold pb-4">Mon champ d’intervention</h1>
                     <div className="flex flex-col gap-2">
                         <p>
-                            Si vous regardez mon parcours universitaire, vous ne serez pas surpris si je vous dit que mon champ d’intervention principal est le français (lecture/écriture). Bien que je travaille aussi avec des enfants qui éprouvent des difficultés en mathématiques, mon dada, c’est le français. Et comme cette discipline m’intéresse énormément, c’est devenu mon expertise.  
+                            Si vous regardez mon parcours universitaire, vous ne serez pas surpris si je vous dis que mon champ d’intervention principal est le français (lecture/écriture). Bien que je travaille aussi avec des enfants qui éprouvent des difficultés en mathématiques, mon dada, c’est le français. Et comme cette discipline m’intéresse énormément, c’est devenu mon expertise.  
                         </p>
                     </div>
                 </div>
@@ -73,7 +73,7 @@ const AboutPage = () => {
                     <h1 className="text-2xl text-bold pb-4">Mon approche</h1>
                     <div className="flex flex-col gap-2">
                         <p>
-                            Lorsque je travaille avec les enfants, j’ai toujours un objectif pédagogique en tête. Cet objectif principal est relié aux difficultés que l’enfant rencontre. Pour ce faire, je prends le temps de connaitre l’enfant qui se trouve devant moi : quelles sont ses passions? Que fait-il dans son temps libre? Quelle est son émission préférée? Pratique-t-il un sport? Quel est son film/livre préféré? Cela me permet de travailler en lien avec les intérêts de l’enfant. Plus je connais de choses sur l’enfant, plus je peux intervenir en prenant en considération ses champs d’intérêts. Si Frédérique adore les dauphins, je peux lui sortir un roman qui rejoint cet intérêt. Pour moi, c’est extrêmement important que l’enfant avec qui je travaille ait du plaisir à venir me voir. Apprendre dans le plaisir, c’est bien plus amusant, non? Les conseils que j’offre aux parents vont donc dans le même sens : je veux que vous travailliez dans le plaisir avec votre enfant!   
+                            Lorsque je travaille avec les enfants, j’ai toujours un objectif pédagogique en tête. Cet objectif principal est relié aux difficultés que l’enfant rencontre. Pour ce faire, je prends le temps de connaitre l’enfant qui se trouve devant moi : quelles sont ses passions? Que fait-il dans son temps libre? Quelle est son émission préférée? Pratique-t-il un sport? Quel est son film/livre préféré? Cela me permet de travailler en lien avec les intérêts de l’enfant. Plus je connais de choses sur l’enfant, plus je peux intervenir en prenant en considération ses champs d’intérêt. Si Frédérique adore les dauphins, je peux lui sortir un roman qui rejoint cet intérêt. Pour moi, c’est extrêmement important que l’enfant avec qui je travaille ait du plaisir à venir me voir. Apprendre dans le plaisir, c’est bien plus amusant, non? Les conseils que j’offre aux parents vont donc dans le même sens : je veux que vous travailliez dans le plaisir avec votre enfant!   
                         </p>
                     </div>
                 </div>

@@ -56,7 +56,7 @@ const ServicesPage = () => {
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2731.454604835245!2d-71.25945048473228!3d46.79535027913922!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cb896f2bb948f5f%3A0xa1f31ebdeb77edce!2s675%20Av.%20Marguerite-Bourgeoys%20%23105%2C%20Qu%C3%A9bec%20City%2C%20QC%20G1S%203V8!5e0!3m2!1sfr!2sca!4v1677860295619!5m2!1sfr!2sca" allowFullScreen="" loading="lazy" title="Carte clinique À petits pas de géant" referrerPolicy="no-referrer-when-downgrade" className="h-80 w-80 sm:w-[32rem] sm:h-[28rem]"></iframe>
                     </div>
                     <div id="contact-accompagnement" className="flex flex-col mt-2 border-t-4 border-lbf-rose items-center">
-                        <p className="text-xl font-bold p-4">Mes services d'accompagnement des parents sont offert en téléconsultation.</p><p className="pb-4 select-text">Contactez-moi pour prendre rendez-vous en remplissant ce formulaire ou en m'envoyant un courriel à <a className="underline" href="mailto:info@laurencebf.ca">info@laurencebf.ca</a></p>
+                        <p className="text-xl font-bold p-4">Mes services d'accompagnement des parents sont offerts en téléconsultation.</p><p className="pb-4 select-text">Contactez-moi pour prendre rendez-vous en remplissant ce formulaire ou en m'envoyant un courriel à <a className="underline" href="mailto:info@laurencebf.ca">info@laurencebf.ca</a></p>
                         <form className="flex flex-col max-w-3xl" name="contact" action="/succes" method="POST" data-netlify="true" netlify-honeypot="bot-field">
                             <input type="hidden" name="bot-field"/>
                             <input type="hidden" name="Objet" value="Demande de renseignement venant de laurencebf.ca" />
@@ -77,7 +77,7 @@ const ServicesPage = () => {
                                 
                                 <label className="block row-start-2 col-span-1">
                                     <span className="block">Année scolaire en cours</span>
-                                    <select name="niveaux" className="mt-1 md:mt-7 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-lbf-orange focus:ring-1 focus:ring-lbf-orange" required>
+                                    <select name="niveau" className="mt-1 md:mt-7 block w-full px-3 py-2 bg-white border border-slate-300 rounded-md text-sm shadow-sm placeholder-slate-400 focus:outline-none focus:border-lbf-orange focus:ring-1 focus:ring-lbf-orange" required>
                                         <option disabled selected value=""> -- Sélectionnez -- </option>
                                         <option value="1ère année">1ère année</option>
                                         <option value="2e année">2e année</option>
