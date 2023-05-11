@@ -29,17 +29,16 @@ return (
                     <div className="grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 gap-8 place-content center">
                     {
                         data.allMdx.nodes.map(node => (
-                                <article key={node.id} className="flex flex-col gap-2 bg-lbf-orange shadow-md shadow-gray-500 rounded-lg p-4 justify-between place-items-center transition ease-in-out duration-300 hover:scale-105">
-                                    <Link to={`/blogue/${node.frontmatter.slug}`}>
-                                        <h2 className="font-bold text-xl text-center font-mulish">
-                                            {node.frontmatter.title}
-                                        </h2>
-                                    </Link>
-                                    <Link to={`/blogue/${node.frontmatter.slug}`}>
-                                        <GatsbyImage image={getImage(node.frontmatter.image)} alt={node.frontmatter.image_alt} className="rounded-xl max-w-xs bg-contain"/>
-                                    </Link>
+                            <Link to={`/blogue/${node.frontmatter.slug}`} >
+                                <article key={node.id} className="flex flex-col gap-2 bg-lbf-orange shadow-md shadow-gray-500 rounded-lg p-4 justify-between place-items-center transition ease-in-out duration-300 hover:scale-105 h-full">
+                                    <h2 className="font-bold text-xl text-center font-mulish">
+                                        {node.frontmatter.title}
+                                    </h2>
+                                    <GatsbyImage image={getImage(node.frontmatter.image)} alt={node.frontmatter.image_alt} className="rounded-xl max-w-xs bg-contain"/>
                                     <p className='font-mulish'>Publication : {node.frontmatter.date}</p>
                                 </article>
+                            </Link>
+                                
                         ))
                     }
                     </div>
