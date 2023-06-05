@@ -14,7 +14,7 @@ return (
             <div className='flex flex-col sm:flex-row bg-lbf-orange lg:ml-40 p-4 rounded-lg gap-8 shadow-md shadow-gray-500 font-mulish'>
                 <div>
                     <p className='text-xl font-bold pb-2'>Laurencebf, orthopédagogue</p>
-                    <p className='text-lg'>Laurence Bernard-Fontaine est l’orthopédagogue derrière la page Laurence bf, orthopédagogue. Elle est spécialisée en difficultés d’apprentissage en français (lecture/écriture) auprès d’enfants de tous âges. Comme elle a le désir d’aider le plus d’enfants possibles à développer leurs compétences littéraciques (lecture-écriture), elle a décidé de créer l’espace Laurence bf, orthopédagogue pour rejoindre les parents, les acteurs les plus importants dans la vie des enfants. Son but est de soutenir et d’aider les parents qui se questionnent sur les façons d’intervenir auprès de leur enfant qui rencontre des difficultés en français. 
+                    <p className='text-lg'>Laurence Bernard-Fontaine est l’orthopédagogue derrière la page Laurence bf, orthopédagogue. Elle est spécialisée en difficultés d’apprentissage en français (lecture/écriture) auprès d’enfants de tous âges. Comme elle a le désir d’aider le plus d’enfants possible à développer leurs compétences littéraciques (lecture-écriture), elle a décidé de créer l’espace Laurence bf, orthopédagogue pour rejoindre les parents, les acteurs les plus importants dans la vie des enfants. Son but est de soutenir et d’aider les parents qui se questionnent sur les façons d’intervenir auprès de leur enfant qui rencontre des difficultés en français. 
                     </p>
                 </div>
                 <div className='self-center sm:self-auto'>

@@ -16,6 +16,7 @@ return (
     <title>{seo.title}</title>
     <meta name="description" content={seo.description} />
     <meta name="image" content={seo.image} />
+    <meta lang="fr"/>
     {children}
     </>
 )
