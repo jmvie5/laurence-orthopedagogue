@@ -1,9 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
-import { Router } from "@reach/router"
-import Profile from "./Profile.js"
-import Login from "./Login.js"
-import PrivateRoute from "./PrivateRoute.js"
+import { Link } from "@reach/router"
 
 const Default = () => {
 
@@ -12,6 +8,7 @@ const Default = () => {
             <div>
                 <div>Bonjour! Page default de app.</div>
             </div>
+            <Link to="profile">Ton profil</Link>
         </>
         
         

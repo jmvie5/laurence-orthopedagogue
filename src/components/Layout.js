@@ -37,19 +37,24 @@ const Layout = ({ pageTitle, children }) => {
                 </Link>
                 <div>
                     {isSmallWindow
-                    ? <div> {DropMenu()} </div>
-                    : <nav className='bg-lbf-orange p-4 rounded-lg'>
-                        <ul className="grid grid-rows-2 lg:grid-rows-1 grid-flow-col gap-2 lg:divide-x-2 justify-center">
-                        {siteMetadata.menuLinks.map(link => (
-                            <li
-                            key={link.name}
-                            className="place-self-center px-4">
-                                <Link className="hover:text-black text-xl font-mulish" to={link.link}>
-                                    {link.name}
-                                </Link>
-                            </li>
-                        ))}
-                        </ul>
+                    ? <div> <Link to="mon-compte" className="hover:text-black text-xl font-mulish bg-lbf-orange p-4 rounded-lg">Mon compte</Link> {DropMenu()} </div>
+                    : <nav className='flex flex-col gap-4 md:flex-row'>
+                        <div className='bg-lbf-orange p-4 rounded-lg'>
+                            <ul className="grid grid-rows-2 lg:grid-rows-1 grid-flow-col gap-2 lg:divide-x-2 justify-center">
+                            {siteMetadata.menuLinks.map(link => (
+                                <li
+                                key={link.name}
+                                className="place-self-center px-4">
+                                    <Link className="hover:text-black text-xl font-mulish" to={link.link}>
+                                        {link.name}
+                                    </Link>
+                                </li>
+                            ))}
+                            <li><Link to="mon-compte" className="hover:text-black text-xl font-mulish px-4 place-self-center">Mon compte</Link></li>
+                            </ul>
+                        </div>
+                        
+                        
                     </nav>
                     }
                 </div>
