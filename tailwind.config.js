@@ -20,7 +20,15 @@ module.exports = {
         },
         backgroundImage: {
           'nuage-orange': "url('nuage-orange.svg')",
-        }
+        },
+        screens: {
+          'xxs': '420px',
+    
+          'xs': '500px',
+
+          'sm': '700px'
+  
+        },
     },
   },
   plugins: [],

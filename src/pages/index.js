@@ -11,15 +11,11 @@ const IndexPage = ({data}) => {
 return (
     <Layout pageTitle="">
         <div className='flex flex-col gap-8'>
-            <div className='flex flex-col sm:flex-row bg-lbf-orange lg:ml-40 p-4 rounded-lg gap-8 shadow-md shadow-gray-500 font-mulish'>
-                <div>
-                    <p className='text-xl font-bold pb-2'>Laurencebf, orthopédagogue</p>
-                    <p className='text-lg'>Laurence Bernard-Fontaine est l’orthopédagogue derrière la page Laurence bf, orthopédagogue. Elle est spécialisée en difficultés d’apprentissage en français (lecture/écriture) auprès d’enfants de tous âges. Comme elle a le désir d’aider le plus d’enfants possibles à développer leurs compétences littéraciques (lecture-écriture), elle a décidé de créer l’espace Laurence bf, orthopédagogue pour rejoindre les parents, les acteurs les plus importants dans la vie des enfants. Son but est de soutenir et d’aider les parents qui se questionnent sur les façons d’intervenir auprès de leur enfant qui rencontre des difficultés en français. 
-                    </p>
-                </div>
-                <div className='self-center sm:self-auto'>
-                    <StaticImage src='../images/laurence_bibli.jpg' className='float-rght bg-contain bg-top h-96 w-72 rounded-xl' alt='Photo de Laurence Bernard-Fontaine'/>
-                </div>
+            <div className='flex flex-col sm:inline bg-lbf-orange lg:ml-40 p-4 rounded-lg gap-2 shadow-md shadow-gray-500 font-mulish'>
+                <p className='text-xl font-bold sm:pb-2'>Laurencebf, orthopédagogue</p>
+                <StaticImage src='../images/laurence_bibli.jpg' className='float-right self-center bg-contain bg-top h-96 min-[340px]:w-72 m-2 rounded-xl' alt='Photo de Laurence Bernard-Fontaine'/>
+                <p className='text-lg'>Laurence Bernard-Fontaine est l’orthopédagogue derrière la page Laurence bf, orthopédagogue. Elle est spécialisée en difficultés d’apprentissage en français (lecture/écriture) auprès d’enfants de tous âges. Comme elle a le désir d’aider le plus d’enfants possible à développer leurs compétences littéraciques (lecture-écriture), elle a décidé de créer l’espace Laurence bf, orthopédagogue pour rejoindre les parents, les acteurs les plus importants dans la vie des enfants. Son but est de soutenir et d’aider les parents qui se questionnent sur les façons d’intervenir auprès de leur enfant qui rencontre des difficultés en français. 
+                </p>
             </div>
             <div className='flex flex-col items-center pt-4'>
                 <div className="text-xl pb-4 font-mulish">
@@ -46,10 +42,10 @@ return (
             </div>
             
             <div className='grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 place-items-center'>
-                <iframe src='https://www.instagram.com/p/Cri0KKDr5vJ/embed' className='h-96 rounded-lg shadow' title='Ça fait quoi, une orthopédagogue?'></iframe>
-                <iframe src='https://www.instagram.com/p/CrayLL2OYD-/embed' className='h-96 rounded-lg shadow' title='Le plaisir de lire.'></iframe>
-                <iframe src='https://www.instagram.com/p/Cq-wgC1rBXS/embed' className='h-96 rounded-lg shadow' title="Que faire quand mon enfant se trompe?"></iframe>
-                <iframe src='https://www.instagram.com/p/Cqsu4nxMtUJ/embed' className='h-96 rounded-lg shadow' title='Journée de la persévérance scolaire.'></iframe>
+                <iframe src='https://www.instagram.com/p/CuCc2iSrUMs/embed' className='h-96 rounded-lg shadow' title="Réviser en s'amusant avec les cartes éducatives"></iframe>
+                <iframe src='https://www.instagram.com/p/CtzAHDPL1Lw/embed' className='h-96 rounded-lg shadow' title='La fée des livres'></iframe>
+                <iframe src='https://www.instagram.com/p/Ctg-mTer-H_/embed' className='h-96 rounded-lg shadow' title="Pause lecture!"></iframe>
+                <iframe src='https://www.instagram.com/p/CtO8-MdrXIB/embed' className='h-96 rounded-lg shadow' title="Stratégies d'études, la récupération"></iframe>
             </div>
         </div>
         
@@ -59,7 +55,7 @@ return (
 
 export const query = graphql`
     query {
-        allMdx(sort: { frontmatter: { date: DESC }}) {
+        allMdx(sort: { frontmatter: { date: DESC }}, limit: 3) {
             nodes {
                 frontmatter {
                     date(formatString: "DD-MM-YYYY")

@@ -28,38 +28,42 @@ const Layout = ({ pageTitle, children }) => {
     };
 
     return (
-        <div className="min-h-screen flex flex-col justify-between">
-            <header className='flex justify-between items-center p-8 bg-lbf-blanc text-white z-50'>
-                <title>{pageTitle} | {siteMetadata.title}</title>
-                <Link to="/" className="min-[420px]:text-4xl min-[340px]:text-2xl text:xl font-satisfy bg-lbf-orange p-4 rounded-lg">
-                    <p>Laurence bf,</p>
-                    <p>orthopédagogue</p>
-                </Link>
-                <div>
-                    {isSmallWindow
-                    ? <div> {DropMenu()} </div>
-                    : <nav className='bg-lbf-orange p-4 rounded-lg'>
-                        <ul className="grid grid-rows-2 lg:grid-rows-1 grid-flow-col gap-2 lg:divide-x-2 justify-center">
-                        {siteMetadata.menuLinks.map(link => (
-                            <li
-                            key={link.name}
-                            className="place-self-center px-4">
-                                <Link className="hover:text-black text-xl font-mulish" to={link.link}>
-                                    {link.name}
-                                </Link>
-                            </li>
-                        ))}
-                        </ul>
-                    </nav>
-                    }
+        <div>
+            <div className='flex bg-lbf-blanc text-white min-h-screen justify-center'>
+                <div className=" flex flex-col justify-between max-w-screen-xl w-full">
+                    <header className='flex justify-between items-center p-4 sm:p-8  z-50'>
+                        <title>{pageTitle} | {siteMetadata.title}</title>
+                        <Link to="/" className="xxs:text-4xl text-2xl font-satisfy bg-lbf-orange p-4 mr-2 rounded-lg">
+                            <p>Laurence bf,</p>
+                            <p>orthopédagogue</p>
+                        </Link>
+                        <div>
+                            {isSmallWindow
+                            ? <div> {DropMenu()} </div>
+                            : <nav className='bg-lbf-orange p-4 rounded-lg'>
+                                <ul className="grid grid-rows-2 lg:grid-rows-1 grid-flow-col gap-2 lg:divide-x-2 justify-center">
+                                {siteMetadata.menuLinks.map(link => (
+                                    <li
+                                    key={link.name}
+                                    className="place-self-center px-4">
+                                        <Link className="hover:text-black text-xl font-mulish" to={link.link}>
+                                            {link.name}
+                                        </Link>
+                                    </li>
+                                ))}
+                                </ul>
+                            </nav>
+                            }
+                        </div>
+                    </header>
+                    <div className='bg-lbf-blanc min-h-screen'>
+                        <main className="font-sans text-black m-4 xs:m-8">
+                            <h1 className='text-3xl font-bold pb-8 font-mulish'>{pageTitle}</h1>
+                            {children}
+                        </main>
+                    </div>
                 </div>
-            </header>
-
-            <div className='bg-lbf-blanc min-h-screen'>
-                <main className="font-sans text-black p-8">
-                    <h1 className='text-3xl font-bold pb-8 font-mulish'>{pageTitle}</h1>
-                    {children}
-                </main>
+                
             </div>
             <div className='p-4 bg-gradient-to-t from-lbf-orange to-lbf-blanc'/>
             <footer className='flex flex-col sm:flex-row text-white bg-lbf-orange p-4 gap-4 text-sm md:text-base justify-between' >
@@ -80,6 +84,7 @@ const Layout = ({ pageTitle, children }) => {
                 </div>
             </footer>
         </div>
+        
     )
 }
 
