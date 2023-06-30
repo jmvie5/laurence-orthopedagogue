@@ -70,17 +70,21 @@ const Layout = ({ pageTitle, children }) => {
                 <div className=''>
                     <div className='mt-2 flex justify-center'>
                         <div className='flex flex-col xl:flex-row xl:space-x-4 space-y-2 xl:space-y-0'>
-                            <a href='https://www.instagram.com/laurencebf.orthopedagogue/' className='flex space-x-1.5'>
+                            <a href='https://www.instagram.com/laurencebf.orthopedagogue/' className='flex space-x-1.5 group'>
                                 <StaticImage src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png'
                                     alt="Logo d'Instagram" width={30} height={30} className='aspect-square'/>
-                                <p className='underline font-mulish'>@laurencebf_orthopedagogue</p>
+                                <p className='group-hover:underline font-mulish'>@laurencebf_orthopedagogue</p>
+                            </a>
+                            <a href='https://www.pinterest.ca/laurencebforthopedagogue/' className='flex space-x-1.5 group'>
+                                <StaticImage src="https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png" alt="Pinterest-logo" width={30} height={30} className='aspect-square'/>
+                                <p className='font-mulish group-hover:underline'>@laurencebforthopedagogue</p>
                             </a>
                         </div>
                     </div>
                 </div>
                 <div className='flex sm:flex-row flex-col sm:mr-4 gap-2 items-center'>
                     <p>Contact : </p>
-                    <a className="underline" href='mailto:info@laurencebf.ca'>info@laurencebf.ca</a>
+                    <a className="hover:underline" href='mailto:info@laurencebf.ca'>info@laurencebf.ca</a>
                 </div>
             </footer>
         </div>
