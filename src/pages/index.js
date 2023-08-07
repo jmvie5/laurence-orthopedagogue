@@ -13,7 +13,7 @@ return (
         <div className='flex flex-col gap-8'>
             <div className='flex flex-col sm:inline bg-lbf-orange lg:ml-40 p-4 rounded-lg gap-2 shadow-md shadow-gray-500 font-mulish'>
                 <p className='text-xl font-bold sm:pb-2'>Laurencebf, orthopédagogue</p>
-                <StaticImage src='../images/laurence_bibli.jpg' className='float-right self-center bg-contain bg-top h-96 min-[340px]:w-72 m-2 rounded-xl' alt='Photo de Laurence Bernard-Fontaine'/>
+                <StaticImage src='../images/laurence_bibli.webp' className='float-right self-center bg-contain bg-top h-96 min-[340px]:w-72 m-2 rounded-xl' alt='Photo de Laurence Bernard-Fontaine'/>
                 <p className='text-lg'>Laurence Bernard-Fontaine est l’orthopédagogue derrière la page Laurence bf, orthopédagogue. Elle est spécialisée en difficultés d’apprentissage en français (lecture/écriture) auprès d’enfants de tous âges. Comme elle a le désir d’aider le plus d’enfants possible à développer leurs compétences littéraciques (lecture-écriture), elle a décidé de créer l’espace Laurence bf, orthopédagogue pour rejoindre les parents, les acteurs les plus importants dans la vie des enfants. Son but est de soutenir et d’aider les parents qui se questionnent sur les façons d’intervenir auprès de leur enfant qui rencontre des difficultés en français. 
                 </p>
             </div>
@@ -22,7 +22,7 @@ return (
                     Articles récemment publiés
                 </div>
                 <div>
-                    <div className="grid grid-col-1 sm:grid-cols-2 md:grid-cols-3 gap-8 place-content center">
+                    <div className="grid grid-col-1 md:grid-cols-3 gap-8">
                     {
                         data.allMdx.nodes.map(node => (
                             <Link to={`/blogue/${node.frontmatter.slug}`} >
@@ -40,12 +40,16 @@ return (
                     </div>
                 </div>
             </div>
-            
-            <div className='grid grid-col-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 place-items-center'>
-                <iframe src='https://www.instagram.com/p/CuCc2iSrUMs/embed' className='h-96 rounded-lg shadow' title="Réviser en s'amusant avec les cartes éducatives"></iframe>
-                <iframe src='https://www.instagram.com/p/CtzAHDPL1Lw/embed' className='h-96 rounded-lg shadow' title='La fée des livres'></iframe>
-                <iframe src='https://www.instagram.com/p/Ctg-mTer-H_/embed' className='h-96 rounded-lg shadow' title="Pause lecture!"></iframe>
-                <iframe src='https://www.instagram.com/p/CtO8-MdrXIB/embed' className='h-96 rounded-lg shadow' title="Stratégies d'études, la récupération"></iframe>
+            <div className='flex flex-col items-center'>
+                <div className="text-xl pb-4 font-mulish self-center">
+                    Suivez-moi sur Instagram!
+                </div>
+                <div className='grid grid-col-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 place-items-center'>
+                    <iframe src='https://www.instagram.com/p/CuCc2iSrUMs/embed' className='h-96 rounded-lg shadow' title="Réviser en s'amusant avec les cartes éducatives"></iframe>
+                    <iframe src='https://www.instagram.com/p/CtzAHDPL1Lw/embed' className='h-96 rounded-lg shadow' title='La fée des livres'></iframe>
+                    <iframe src='https://www.instagram.com/p/Ctg-mTer-H_/embed' className='h-96 rounded-lg shadow' title="Pause lecture!"></iframe>
+                    <iframe src='https://www.instagram.com/p/CtO8-MdrXIB/embed' className='h-96 rounded-lg shadow' title="Stratégies d'études, la récupération"></iframe>
+                </div>
             </div>
         </div>
         

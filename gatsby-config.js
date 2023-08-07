@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Laurence, Orthopédagogue",
     siteUrl: `https://laurencebf.ca`,
-    image: `/src/images/logo.png`,
+    image: `/src/images/logo.webp`,
     description: "Laurence Bernard-Fontaine est l’orthopédagogue derrière la page Laurence bf, orthopédagogue. Elle est spécialisée en difficultés d’apprentissage en français (lecture/écriture) auprès d’enfants de tous âges.",
     menuLinks: [
       {
@@ -72,6 +72,7 @@ module.exports = {
             resolve: `gatsby-remark-images`,
             options: {
               maxWidth: 590,
+              backgroundColor: `transparent`
             },
           },
         ],
@@ -89,7 +90,7 @@ module.exports = {
         background_color: `#e4dacd`,
         theme_color: `#e6a97e`,
         display: `standalone`,
-        icon: `src/images/logo.png`
+        icon: `src/images/logo.webp`
       }
     },
     `gatsby-plugin-sitemap`,

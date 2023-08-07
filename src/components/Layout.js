@@ -82,9 +82,9 @@ const Layout = ({ pageTitle, children }) => {
                         </div>
                     </div>
                 </div>
-                <div className='flex sm:flex-row flex-col sm:mr-4 gap-2 items-center'>
-                    <p>Contact : </p>
-                    <a className="hover:underline" href='mailto:info@laurencebf.ca'>info@laurencebf.ca</a>
+                <div className='flex flex-col sm:mr-4 gap-2 items-center'>
+                    <p>Contact : <a className="hover:underline" href='mailto:info@laurencebf.ca'>info@laurencebf.ca</a></p>
+                    <p className=''>Site web développé par <a className="hover:underline" href='https://jeanmichelviel.ca'>jeanmichelviel.ca</a></p>
                 </div>
             </footer>
         </div>
