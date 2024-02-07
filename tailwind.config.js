@@ -16,7 +16,8 @@ module.exports = {
           "lbf-rose": "#e2bea8",
           "lbf-orange": "#e6a97e",
           "lbf-rouge": "#cd6547",
-          "lbf-bleu": "#9da686"
+          "lbf-vert": "#9da686",
+          "lbf-bleu": "#5d878d"
         },
         backgroundImage: {
           'nuage-orange': "url('nuage-orange.svg')",

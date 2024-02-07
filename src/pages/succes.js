@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Layout from '../components/Layout';
 import { Link } from 'gatsby';
-import { ArrowSmallLeftIcon } from '@heroicons/react/24/outline';
+import { ArrowLeftIcon } from '@heroicons/react/16/solid';
 
 const SuccessPage = () => {
     return (
@@ -12,7 +12,7 @@ const SuccessPage = () => {
                     to="/services"
                     className="flex flex-row w-24 h-10 p-2 mt-4 items-center border border-black rounded-lg shadow-2xl"
                 >
-                    <ArrowSmallLeftIcon className="w-6 h-6" />
+                    <ArrowLeftIcon className="w-6 h-6" />
                     <p>Retour</p>
                 </Link>
             </div>

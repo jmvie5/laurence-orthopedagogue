@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { graphql, Link } from 'gatsby';
 import Layout from '../../components/Layout';
-import { ArrowSmallLeftIcon } from '@heroicons/react/24/outline';
+import { ArrowLeftIcon } from '@heroicons/react/16/solid';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { MDXProvider } from '@mdx-js/react';
 
@@ -19,7 +19,7 @@ const BlogPost = ({ data, children }) => {
                 <GatsbyImage
                     image={image}
                     alt={data.mdx.frontmatter.image_alt}
-                    className="md:float-right md:ml-8 mt-4 rounded-lg max-w-sm self-center"
+                    className="md:float-right md:ml-8 my-4 rounded-lg max-w-sm self-center"
                 />
                 <MDXProvider
                     localImages={data.mdx.frontmatter.embeddedImagesLocal}
@@ -35,7 +35,7 @@ const BlogPost = ({ data, children }) => {
                 to="/blogue"
                 className="flex flex-row w-24 h-10 p-2 mt-4 items-center border border-black rounded-lg shadow-2xl font-mulish"
             >
-                <ArrowSmallLeftIcon className="w-6 h-6" />
+                <ArrowLeftIcon className="w-6 h-6" />
                 <p className="font-mulish">Retour</p>
             </Link>
         </Layout>

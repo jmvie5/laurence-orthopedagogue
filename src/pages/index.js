@@ -56,24 +56,24 @@ const IndexPage = ({ data }) => {
                     <div className="text-xl pb-4 font-mulish self-center">Suivez-moi sur Instagram!</div>
                     <div className="grid grid-col-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 place-items-center">
                         <iframe
-                            src="https://www.instagram.com/p/Cydu107r-MK/embed"
+                            src="https://www.instagram.com/reel/C3A7bXkg5YB/embed"
                             className="h-96 rounded-lg shadow"
-                            title="Un bingo pour étudier les mots de vocabulaire?"
+                            title="Recopier les mots de vocabulaire?"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/p/CyTRxcQLANM/embed"
+                            src="https://www.instagram.com/reel/C22c6IJrNga/embed"
                             className="h-96 rounded-lg shadow"
-                            title="Dyslexue ou retard?"
+                            title="À quoi peut ressembler une rencontre d'orthopédagogie avec moi"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/p/CxqR3-_Lpkb/embed"
+                            src="https://www.instagram.com/reel/C2z2BTdLXBH/embed"
                             className="h-96 rounded-lg shadow"
-                            title="DYI boite aux lettes"
+                            title="Longues phrases"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/p/Cv9wSS1g4xD/embed"
+                            src="https://www.instagram.com/p/C2xUkJaL99X/embed"
                             className="h-96 rounded-lg shadow"
-                            title="Trouvailles du 12 aout!"
+                            title="Comment complexifier la syntaxe à l'écrit?"
                         ></iframe>
                     </div>
                 </div>
