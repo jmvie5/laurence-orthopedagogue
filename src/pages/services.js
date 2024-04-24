@@ -24,7 +24,7 @@ const ServicesPage = () => {
                         </ul>
                         <div className="flex self-center group">
                             <CalendarDaysIcon className="w-6 h-6" />
-                            <a className="group-hover:underline " href="#contact-orthopédagogie">
+                            <a className="group-hover:underline " href="#contact">
                                 Prendre rendez-vous
                             </a>
                         </div>
@@ -48,14 +48,14 @@ const ServicesPage = () => {
                         </ul>
                         <div className="flex self-center group">
                             <CalendarDaysIcon className="w-6 h-6" />
-                            <a className="group-hover:underline " href="#contact-accompagnement">
+                            <a className="group-hover:underline " href="#contact">
                                 Prendre rendez-vous
                             </a>
                         </div>
                     </div>
                 </div>
                 <div id="contact-orthopédagogie" className="flex flex-col items-center gap-2">
-                    <p className="text-xl font-bold">Mes services d'orthopédagogie sont offerts ici :</p>
+                    {/* <p className="text-xl font-bold">Mes services d'orthopédagogie sont offerts ici :</p>
                     <a href="https://www.apetitspasdegeant.com/" title="À petit pas de géant">
                         {' '}
                         <StaticImage
@@ -92,13 +92,13 @@ const ServicesPage = () => {
                             referrerPolicy="no-referrer-when-downgrade"
                             className="h-80 w-80 sm:w-[32rem] sm:h-[28rem]"
                         ></iframe>
-                    </div>
+                    </div> */}
                     <div
-                        id="contact-accompagnement"
+                        id="contact"
                         className="flex flex-col mt-2 border-t-4 border-lbf-rose items-center"
                     >
                         <p className="text-xl font-bold p-4">
-                            Mes services d'accompagnement des parents sont offerts en téléconsultation.
+                            Prendre rendez-vous
                         </p>
                         <p className="pb-4 select-text">
                             Contactez-moi pour prendre rendez-vous en remplissant ce formulaire ou en m'envoyant un

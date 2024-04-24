@@ -56,24 +56,24 @@ const IndexPage = ({ data }) => {
                     <div className="text-xl pb-4 font-mulish self-center">Suivez-moi sur Instagram!</div>
                     <div className="grid grid-col-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 place-items-center">
                         <iframe
-                            src="https://www.instagram.com/reel/C3A7bXkg5YB/embed"
+                            src="https://www.instagram.com/p/C53J-40r9eP/embed"
                             className="h-96 rounded-lg shadow"
-                            title="Recopier les mots de vocabulaire?"
+                            title="Idées pour varier l'étude des mots de vocabulaire"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/reel/C22c6IJrNga/embed"
+                            src="https://www.instagram.com/reel/C50nr9eLv4t/embed"
                             className="h-96 rounded-lg shadow"
-                            title="À quoi peut ressembler une rencontre d'orthopédagogie avec moi"
+                            title="Astuce ludique pour étudier les mots de vocabulaire"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/reel/C2z2BTdLXBH/embed"
+                            src="https://www.instagram.com/p/C5lIdA6Ln11/embed"
                             className="h-96 rounded-lg shadow"
-                            title="Longues phrases"
+                            title="Un bricolage pour le salon du livre"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/p/C2xUkJaL99X/embed"
+                            src="https://www.instagram.com/reel/C5VrqfarYoG/embed"
                             className="h-96 rounded-lg shadow"
-                            title="Comment complexifier la syntaxe à l'écrit?"
+                            title="La marche rythmique pour travailler la fluidité"
                         ></iframe>
                     </div>
                 </div>
