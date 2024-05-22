@@ -135,6 +135,20 @@ const MaterielPage = () => {
                         </p>
                     </div>
                 </div>
+                <div>
+                    <h2 className="p-1 text-xl ml-4">Autre matériel</h2>
+                    <div className="border-8 border-lbf-orange rounded-2xl p-4">
+                        <ul className="list-disc list-inside">
+                            <li className="pl-4">
+                                <a href={'/Histoire-à-reconstruire-Gustave-le-pirate.pdf'} target='_blank' rel="noreferrer" className='undeline text-blue-500'>
+                                    Histoire à recontruire : Gustave le pirate
+                                </a>
+                            </li>
+                        </ul>
+                        
+                    </div>
+                    
+                </div>
             </div>
         </Layout>
     );

@@ -56,24 +56,24 @@ const IndexPage = ({ data }) => {
                     <div className="text-xl pb-4 font-mulish self-center">Suivez-moi sur Instagram!</div>
                     <div className="grid grid-col-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 place-items-center">
                         <iframe
-                            src="https://www.instagram.com/p/C53J-40r9eP/embed"
+                            src="https://www.instagram.com/p/C6_QPWMRiwD/embed"
                             className="h-96 rounded-lg shadow"
-                            title="Idées pour varier l'étude des mots de vocabulaire"
+                            title="Les évaluations, à quoi ça sert?"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/reel/C50nr9eLv4t/embed"
+                            src="https://www.instagram.com/reel/C6wNEcILvAK/embed"
                             className="h-96 rounded-lg shadow"
-                            title="Astuce ludique pour étudier les mots de vocabulaire"
+                            title="Un superbe outil à utiliser, parfait pour la révision de la fin de l’année scolaire!"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/p/C5lIdA6Ln11/embed"
+                            src="https://www.instagram.com/p/C6tOrNTLpXA/embed"
                             className="h-96 rounded-lg shadow"
-                            title="Un bricolage pour le salon du livre"
+                            title="La motivation en fin d'année scolaire : comment aider son enfant à garder le cap"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/reel/C5VrqfarYoG/embed"
+                            src="https://www.instagram.com/p/C6JLhoirkCk/embed"
                             className="h-96 rounded-lg shadow"
-                            title="La marche rythmique pour travailler la fluidité"
+                            title="A-t-on besoin d'une bibliothèque pleine à craquer pour faire émerger le plaisir de lire chez notre enfant?"
                         ></iframe>
                     </div>
                 </div>
