@@ -1,0 +1,9 @@
+node_modules/
+.cache/
+public
+
+.prettierignore
+dist
+
+# Local Netlify folder
+.netlify
