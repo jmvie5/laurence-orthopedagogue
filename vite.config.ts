@@ -3,17 +3,18 @@ import { defineConfig } from "vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 import { netlifyPlugin } from "@netlify/remix-adapter/plugin";
 import { installGlobals } from "@remix-run/node";
-import mdx from '@mdx-js/rollup'
+import mdx from "@mdx-js/rollup";
 
 installGlobals();
 
-
 export default defineConfig({
+  server: {
+    port: 5429,
+  },
   plugins: [
     mdx(/* jsxImportSource: …, otherOptions… */),
-    remix(), 
-    netlifyPlugin(), 
+    remix(),
+    netlifyPlugin(),
     tsconfigPaths(),
-    
-  ]
+  ],
 });

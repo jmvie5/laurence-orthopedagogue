@@ -1,0 +1,79 @@
+import React from "react";
+import de_en from "./de_en.pdf";
+import de_fr from "./de_fr.pdf";
+import de_temps from "./de_temps.pdf";
+import de_vierge from "./de_vierge.pdf";
+
+export default function DePost() {
+  return (
+    <div>
+      <p className="pb-2">
+        Étudier des verbes, ce n’est pas toujours la chose la plus amusante
+        pendant la période de devoirs et de leçons. Pour rendre ce moment plus
+        agréable pour les enfants (et pour les parents, on ne se le cachera pas
+        😉 ), j’ai décidé de créer un petit jeu tout simple que vous pouvez tout
+        à fait confectionner à la maison.
+      </p>
+      <p className="pb-2">
+        Il faut savoir qu’il s’agit d’une compétition : votre enfant devra jouer
+        contre un autre joueur (papa, maman ou même la fratrie peut participer).
+      </p>
+      <p className="pb-2">
+        Ce qui est bien avec ce jeu, c’est qu’ à cause de l’élément « chance »
+        qu’apporte le dé, votre enfant peut tout à fait gagner contre vous. Il
+        doit conjuguer le verbe correctement, bien sûr, mais même si vous
+        connaissez mieux le verbe à conjuguer que lui, ce n’est pas assuré que
+        vous gagniez. C’est donc plus motivant pour votre enfant : il a une
+        réelle chance de vous battre à un jeu de français!
+      </p>
+      <div className="flex flex-col border-4 border-lbf-orange rounded-lg md:mx-10 mt-20 mb-10 px-6 py-6 gap-2 font-mulish">
+        Voici ce dont vous aurez besoin :
+        <ul className="list-disc list-inside pb-6">
+          <li className="pl-4">
+            un dé de conjugaison (voir les instructions ci-bas) ;
+          </li>
+          <li className="pl-4">des crayons ;</li>
+          <li className="pl-4">
+            des feuilles de papier (1 feuille par joueur)
+          </li>
+        </ul>
+        Déroulement de la partie : Le joueur le plus jeune commence! Déterminez
+        d’abord le verbe à conjuguer ainsi que le temps et le mode (ex.: présent
+        de l’indicatif). À tour de rôle, les joueurs lancent le dé de
+        conjugaison. Le joueur qui a lancé le dé doit écrire le verbe à l’étude
+        selon la personne inscrite sur le dé qu’il a lancé. Par exemple, vous
+        étudiez le verbe « manger ». Votre enfant lance le dé et il obtient « tu
+        ». Il doit alors écrire sur sa feuille « tu manges ». Les autres joueurs
+        vérifient la réponse : si le joueur a bien écrit son verbe, c’est au
+        tour du prochain joueur. Si le joueur s’est trompé, il doit effacer et
+        la partie continue.
+        <p className="pt-6">
+          But du jeu : Être le premier joueur qui conjugue correctement au
+          complet (toutes les personnes) le verbe au temps à l’étude!
+        </p>
+      </div>
+      Et ne vous arrêtez pas là! Un dé vierge, c’est tellement polyvalent.
+      Plusieurs variantes du jeu sont possibles. Par exemple, lorsque votre
+      enfant doit étudier un verbe à plusieurs temps, vous pouvez confectionner
+      un dé avec les différents temps (ex.: passé composé, imparfait). Vous
+      pourriez alors jouer avec deux dés : celui des personnes et celui des
+      temps. De plus, ce jeu peut très bien être utilisé pour étudier les verbes
+      en anglais. Faites-moi savoir dans la section « commentaires » si vous
+      trouvez d’autres idées chouettes pour incorporer un jeu de dés dans votre
+      période de devoirs et de leçons avec votre enfant!
+      <h2 className="underline pt-2">Construction du dé de conjugaison</h2>
+      Je vous laisse ici des fichiers à télécharger si vous souhaitez imprimer
+      un dé à confectionner avec votre enfant.
+      {/* prettier-ignore */}
+      <ul className="list-disc list-inside mb-8">
+          <li className="pl-4"><a href={de_fr} download className="underline text-blue-500">Dé avec les personnes</a>{` `}</li>
+          <li className="pl-4"><a href={de_temps} download className="underline text-blue-500">Dé avec les temps (présent, passé composé, imparfait, plus-que-parfait, conditionnel présent, futur simple)</a>{` `}</li>
+          <li className="pl-4"><a href={de_en} download className="underline text-blue-500">Dé avec les personnes -ANGLAIS</a>{` `}</li>
+          <li className="pl-4"><a href={de_vierge} download className="underline text-blue-500">Dé vierge</a>{` `}</li>
+      </ul>
+      Il est aussi tout à fait possible de prendre un dé que vous avez déjà à la
+      maison et de coller des morceaux de papier dessus sur lesquels votre
+      enfant peut écrire les personnes.
+    </div>
+  );
+}
