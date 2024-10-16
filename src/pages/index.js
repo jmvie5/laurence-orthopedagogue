@@ -56,24 +56,24 @@ const IndexPage = ({ data }) => {
                     <div className="text-xl pb-4 font-mulish self-center">Suivez-moi sur Instagram!</div>
                     <div className="grid grid-col-1 sm:grid-cols-2 xl:grid-cols-4 gap-8 place-items-center">
                         <iframe
-                            src="https://www.instagram.com/p/C6_QPWMRiwD/embed"
+                            src="https://www.instagram.com/p/DADsXLDxGZM/embed"
                             className="h-96 rounded-lg shadow"
-                            title="Les évaluations, à quoi ça sert?"
+                            title="Laurencebf.orthopedagogue"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/reel/C6wNEcILvAK/embed"
+                            src="https://www.instagram.com/reel/DAYSvG1ISFj/embed"
                             className="h-96 rounded-lg shadow"
-                            title="Un superbe outil à utiliser, parfait pour la révision de la fin de l’année scolaire!"
+                            title="Un jeu pour travailler la syntaxe"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/p/C6tOrNTLpXA/embed"
+                            src="https://www.instagram.com/p/DAVt8hyRmJ5/embed"
                             className="h-96 rounded-lg shadow"
-                            title="La motivation en fin d'année scolaire : comment aider son enfant à garder le cap"
+                            title="La chasse aux mots"
                         ></iframe>
                         <iframe
-                            src="https://www.instagram.com/p/C6JLhoirkCk/embed"
+                            src="https://www.instagram.com/p/C_xq2duxkig/embed"
                             className="h-96 rounded-lg shadow"
-                            title="A-t-on besoin d'une bibliothèque pleine à craquer pour faire émerger le plaisir de lire chez notre enfant?"
+                            title="Une bonne routine du matin pour débuter la journée dans la bonne humeur"
                         ></iframe>
                     </div>
                 </div>

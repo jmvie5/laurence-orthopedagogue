@@ -144,10 +144,13 @@ const MaterielPage = () => {
                                     Histoire à recontruire : Gustave le pirate
                                 </a>
                             </li>
+                            <li className="pl-4">
+                                <a href={'/liste-synonymes.pdf'} target='_blank' rel="noreferrer" className='undeline text-blue-500'>
+                                    Liste de synonymes
+                                </a>
+                            </li>
                         </ul>
-                        
                     </div>
-                    
                 </div>
             </div>
         </Layout>
