@@ -29,7 +29,7 @@ const Layout = ({ pageTitle, children }) => {
         <div>
             <div className="flex bg-lbf-blanc text-white min-h-screen justify-center">
                 <div className=" flex flex-col justify-between max-w-screen-xl w-full">
-                    <header className="flex justify-between items-center p-4 sm:p-8  z-50">
+                    <header className="flex justify-between p-4 sm:p-8  z-50">
                         <title>
                             {pageTitle} | {siteMetadata.title}
                         </title>
