@@ -6,3 +6,5 @@ public
 dist
 old-app
 .netlify
+
+.DS_Store
