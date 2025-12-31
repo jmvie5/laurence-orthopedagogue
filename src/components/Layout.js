@@ -75,7 +75,7 @@ const Layout = ({ pageTitle, children }) => {
                                 rel="noreferrer"
                             >
                                 <StaticImage
-                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/800px-Instagram_logo_2022.svg.png"
+                                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/250px-Instagram_logo_2022.svg.png"
                                     alt="Logo d'Instagram"
                                     width={30}
                                     height={30}

@@ -29,7 +29,6 @@ module.exports = {
     
   },
   plugins: [
-    "gatsby-plugin-netlify",
     "gatsby-plugin-image",
     {
       resolve: `gatsby-plugin-sharp`,
@@ -79,7 +78,6 @@ module.exports = {
       },
     },
     "gatsby-transformer-sharp",
-    "gatsby-plugin-react-helmet",
     "gatsby-plugin-postcss",
     {
       resolve: `gatsby-plugin-manifest`,
