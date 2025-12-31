@@ -43,7 +43,7 @@ const BlogPost = ({ data, children }) => {
     );
 };
 
-export const Head = ({ location, params, data, pageContext }) => {
+export const Head = ({ data }) => {
     const query = data.mdx.frontmatter
     return <Seo title={query.title} description={query.summary}/>
 }
