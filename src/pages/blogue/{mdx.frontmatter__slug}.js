@@ -4,6 +4,7 @@ import Layout from '../../components/Layout';
 import { ArrowLeftIcon } from '@heroicons/react/16/solid';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 import { MDXProvider } from '@mdx-js/react';
+import {Seo} from "../../components/seo";
 
 /*Voir liens suivants pour embed images dans mdx avec gatsby image
 https://stackoverflow.com/questions/67227977/gatsby-static-imagegatsby-plugin-image-inside-mdx
@@ -42,11 +43,17 @@ const BlogPost = ({ data, children }) => {
     );
 };
 
+export const Head = ({ location, params, data, pageContext }) => {
+    const query = data.mdx.frontmatter
+    return <Seo title={query.title} description={query.summary}/>
+}
+
 export const query = graphql`
     query ($id: String) {
         mdx(id: { eq: $id }) {
             frontmatter {
                 title
+                summary
                 date(formatString: "DD-MM-YYYY")
                 image {
                     childImageSharp {

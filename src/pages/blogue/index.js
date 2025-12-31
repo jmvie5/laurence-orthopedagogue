@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Link, graphql } from 'gatsby';
 import Layout from '../../components/Layout';
 import { GatsbyImage, getImage } from 'gatsby-plugin-image';
+import {Seo} from "../../components/seo";
 
 const BlogPage = ({ data }) => {
     return (
@@ -27,6 +28,10 @@ const BlogPage = ({ data }) => {
         </Layout>
     );
 };
+
+export const Head = () => (
+    <Seo title={"Blogue"} description={"Blogue de Laurence bf, orthopédagogue"}/>
+)
 
 export const query = graphql`
     query {
