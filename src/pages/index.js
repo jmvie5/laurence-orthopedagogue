@@ -32,7 +32,7 @@ const IndexPage = ({ data }) => {
                     <div>
                         <div className="grid grid-col-1 md:grid-cols-3 gap-8">
                             {data.allMdx.nodes.map((node) => (
-                                <Link to={`/blogue/${node.frontmatter.slug}`}>
+                                <Link to={`/blogue/${node.frontmatter.slug}`} key={node.id}>
                                     <article
                                         key={node.id}
                                         className="flex flex-col gap-2 bg-lbf-orange shadow-md shadow-gray-500 rounded-lg p-4 justify-between place-items-center transition ease-in-out duration-300 hover:scale-105 h-full"

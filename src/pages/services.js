@@ -133,8 +133,8 @@ const ServicesPage = () => {
                                         required
                                     />
                                 </label>
-                                <label class="block col-start-2 row-span-1">
-                                    <span class="block">Courriel</span>
+                                <label className="block col-start-2 row-span-1">
+                                    <span className="block">Courriel</span>
                                     <input
                                         type="email"
                                         name="Courriel"

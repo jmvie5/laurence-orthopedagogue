@@ -8,7 +8,7 @@ const BlogPage = ({ data }) => {
         <Layout pageTitle="Blogue">
             <div className="grid lg:grid-cols-3 sm:grid-cols-2 grid-col-1 gap-8 place-content center font-mulish">
                 {data.allMdx.nodes.map((node) => (
-                    <Link to={`/blogue/${node.frontmatter.slug}`}>
+                    <Link to={`/blogue/${node.frontmatter.slug}`} key={node.id}>
                         <article
                             key={node.id}
                             className="flex flex-col gap-2 bg-lbf-orange shadow-md shadow-gray-500 rounded-lg p-4 justify-between place-items-center transition ease-in-out duration-300 hover:scale-105 h-full"
